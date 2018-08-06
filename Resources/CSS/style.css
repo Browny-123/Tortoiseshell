@@ -1,0 +1,136 @@
+html {
+  font-size: 18px;
+  line-height: 1.4;
+}
+/* Body */
+.container  {
+  width: 960px;
+  margin: 0 auto;
+}
+body {
+  font-family: helvetica;
+}
+
+/*header*/
+
+header {
+  height: 30rem;
+  background-image: url("../Images/Main Banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mainbanner {
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+h1 {
+  color: white;
+  margin-left: 1rem;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+.logo img {
+  height: 1.5rem;
+}
+header .container {
+  padding-top: 1rem;
+}
+#offset {
+  margin-right: 0;
+}
+.header {
+  background-color: white;
+  display: inline-block;
+  margin-top: 10rem;
+  float: right;
+  margin-right: -2rem;
+}
+.title h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
+}
+/*Main Body of Webpage*/
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  height: 8rem;
+  margin-bottom: 3rem;
+}
+.info {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 6rem;
+}
+#paper {
+  width: 3.5rem;
+}
+#ruler,
+#truck {
+  width: 5rem;
+}
+/*bottom of page*/
+
+.data {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+
+}
+.midhead {
+  color: white;
+  background-color: cadetblue;
+  width: 10rem;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.philosophy,
+.appointments {
+  width: 35%;
+}
+.midhead h2 {
+  padding-left: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.philosophy p {
+  margin-right: 5%;
+}
+/*footer*/
+.footer {
+  background-color: azure;
+}
+.footlogo {
+  display: flex;
+  padding-left: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  align-items: center;
+}
+.footlogo img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+.footlogo h1 {
+  color: black;
+}
